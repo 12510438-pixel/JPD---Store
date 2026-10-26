@@ -1,0 +1,197 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JPD Store | Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><nav class="navbar navbar-expand-lg main-navbar">
+    <div class="container">
+        <a class="navbar-brand brand-name" href="index.html">JPD<span>Store.</span></a>
+        <div class="navbar-nav ms-auto flex-row">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="shop.html">Shop</a>
+            <a class="nav-link" href="account.html">Account</a>
+            <a class="nav-link" href="cart.html">Cart 🛒</a>
+        </div>
+    </div>
+</nav><section class="page-heading">
+    <div class="container">
+        <h1 class="section-title">Shop All Products</h1>
+        <p class="section-subtitle mb-0">Temukan pakaian favoritmu di JPD Store.</p>
+    </div>
+</section><section class="section-space">
+    <div class="container">
+        <div class="row g-4">        <aside class="col-lg-3">
+            <div class="filter-panel">
+
+                <h3>Kategori</h3>
+                <label><input type="radio" name="category" checked> Semua Produk</label>
+                <label><input type="radio" name="category"> T-Shirt</label>
+                <label><input type="radio" name="category"> Hoodie</label>
+                <label><input type="radio" name="category"> Kemeja</label>
+                <label><input type="radio" name="category"> Sweater</label>
+                <label><input type="radio" name="category"> Celana</label>
+                <label><input type="radio" name="category"> Dress</label>
+                <label><input type="radio" name="category"> Rok</label>
+
+                <hr>
+
+                <h3>Gender</h3>
+                <label><input type="checkbox"> Pria</label>
+                <label><input type="checkbox"> Wanita</label>
+                <label><input type="checkbox"> Unisex</label>
+
+                <hr>
+
+                <h3>Rentang Harga</h3>
+                <label><input type="radio" name="price"> Di bawah Rp100.000</label>
+                <label><input type="radio" name="price"> Rp100.000–Rp200.000</label>
+                <label><input type="radio" name="price"> Di atas Rp200.000</label>
+
+                <p class="section-subtitle mt-3">
+                    Filter ini merupakan contoh tampilan.
+                </p>
+
+            </div>
+        </aside>
+
+        <div class="col-lg-9">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h2 class="section-title mb-0">Semua Produk</h2>
+                <select class="sort-select" aria-label="Urutkan produk">
+                    <option>Urutkan: Terbaru</option>
+                    <option>Harga Terendah</option>
+                    <option>Harga Tertinggi</option>
+                </select>
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/hoodie-blue.jpg" alt="Hoodie Oversize Blue">
+                            <span class="favorite-mark">♡</span>
+                        </a>
+                        <div class="product-description">
+                            <h3>Hoodie Oversize Blue</h3>
+                            <div class="product-price">Rp169.000</div>
+                            <span class="product-tag">Pria</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/hoodie-pink.jpg" alt="Hoodie Pink Bear">
+                            <span class="favorite-mark">♡</span>
+                        </a>
+                        <div class="product-description">
+                            <h3>Hoodie Pink Bear</h3>
+                            <div class="product-price">Rp179.000</div>
+                            <span class="product-tag pink">Wanita</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/tshirt-couple.jpg" alt="T-Shirt Couple">
+                        </a>
+                        <div class="product-description">
+                            <h3>T-Shirt Couple</h3>
+                            <div class="product-price">Rp129.000</div>
+                            <span class="product-tag">Unisex</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/shirt-blue.jpg" alt="Kemeja Stripe">
+                        </a>
+                        <div class="product-description">
+                            <h3>Kemeja Stripe</h3>
+                            <div class="product-price">Rp158.000</div>
+                            <span class="product-tag">Pria</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/sweater.jpg" alt="Sweater Knit">
+                        </a>
+                        <div class="product-description">
+                            <h3>Sweater Knit</h3>
+                            <div class="product-price">Rp149.000</div>
+                            <span class="product-tag pink">Wanita</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/pants.jpg" alt="Celana Cargo">
+                        </a>
+                        <div class="product-description">
+                            <h3>Celana Cargo</h3>
+                            <div class="product-price">Rp159.000</div>
+                            <span class="product-tag">Pria</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/dress.jpg" alt="Dress Floral">
+                        </a>
+                        <div class="product-description">
+                            <h3>Dress Floral</h3>
+                            <div class="product-price">Rp179.000</div>
+                            <span class="product-tag pink">Wanita</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4">
+                    <div class="product-card">
+                        <a href="detail.html" class="product-picture d-block">
+                            <img src="img/skirt.jpg" alt="Rok Plisket">
+                        </a>
+                        <div class="product-description">
+                            <h3>Rok Plisket</h3>
+                            <div class="product-price">Rp129.000</div>
+                            <span class="product-tag">Unisex</span>
+                            <a href="detail.html" class="btn btn-outline-pink w-100 mt-3">Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+</section><footer class="site-footer">
+    <div class="container text-center">
+        <p>© 2026 JPD Store. All rights reserved.</p>
+    </div>
+</footer></body>
+</html>
