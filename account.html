@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | JPD Store</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: white;
+            padding: 15px 0;
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            letter-spacing: 2px;
+            color: #222;
+        }
+
+        .nav-link {
+            color: #333;
+            margin-left: 15px;
+        }
+
+        .account-section {
+            padding: 60px 15px;
+        }
+
+        .account-title {
+            text-align: center;
+            margin-bottom: 35px;
+        }
+
+        .account-title h2 {
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        .account-card {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+            height: 100%;
+        }
+
+        .account-card h4 {
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .form-control {
+            padding: 12px;
+            margin-bottom: 18px;
+            border-radius: 6px;
+        }
+
+        .btn-account {
+            width: 100%;
+            padding: 12px;
+            background-color: #222;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        .btn-account:hover {
+            background-color: #555;
+            color: white;
+        }
+
+        .account-note {
+            color: #777;
+            font-size: 14px;
+            margin-top: 15px;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">JPD STORE</a>
+
+        <div class="ms-auto">
+            <a href="index.html" class="nav-link d-inline-block">Home</a>
+            <a href="shop.html" class="nav-link d-inline-block">Shop</a>
+            <a href="cart.html" class="nav-link d-inline-block">Cart</a>
+            <a href="account.html" class="nav-link d-inline-block fw-bold">Account</a>
+        </div>
+    </div>
+</nav>
+
+<!-- ACCOUNT -->
+<section class="account-section">
+    <div class="container">
+
+        <div class="account-title">
+            <h2>MY ACCOUNT</h2>
+            <p>Welcome to JPD Store. Please login or create your account.</p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- LOGIN -->
+            <div class="col-md-6">
+                <div class="account-card">
+
+                    <h4>Login</h4>
+
+                    <form action="#" method="post">
+
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control"
+                            placeholder="Enter your email" required>
+
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control"
+                            placeholder="Enter your password" required>
+
+                        <div class="mb-3">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+
+                        <button type="button" class="btn-account">
+                            LOGIN
+                        </button>
+
+                    </form>
+
+                    <p class="account-note">
+                        Welcome back! Login to continue shopping at JPD Store.
+                    </p>
+
+                </div>
+            </div>
+
+            <!-- REGISTER -->
+            <div class="col-md-6">
+                <div class="account-card">
+
+                    <h4>Create Account</h4>
+
+                    <form action="#" method="post">
+
+                        <label class="form-label">Full Name</label>
+                        <input type="text" class="form-control"
+                            placeholder="Enter your full name" required>
+
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control"
+                            placeholder="Enter your email" required>
+
+                        <label class="form-label">Password</label>
+                        <input type="password" class="form-control"
+                            placeholder="Create a password" required>
+
+                        <label class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control"
+                            placeholder="Confirm your password" required>
+
+                        <button type="button" class="btn-account">
+                            CREATE ACCOUNT
+                        </button>
+
+                    </form>
+
+                    <p class="account-note">
+                        Create your account and enjoy shopping with JPD Store.
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p class="mb-0">&copy; 2026 JPD Store. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
