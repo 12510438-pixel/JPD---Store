@@ -49,11 +49,13 @@ a {
     margin-left: 15px;
 }
 
+
 .hero {
-    background: linear-gradient(110deg, white, #fbeaf1);
+    background: linear-gradient(110deg, #fbeaf1, #f2c9d9);
     border-radius: 24px;
     overflow: hidden;
 }
+
 
 .hero-copy {
     padding: 65px 7%;
@@ -319,5 +321,119 @@ footer small {
 
     .section-space {
         padding: 40px 0;
+    }
+}
+
+/* CHECKOUT BOOTSTRAP MODAL */
+
+.checkout-modal .modal-content {
+    border: none;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.checkout-modal .modal-header {
+    border-bottom: none;
+    padding: 22px 22px 10px;
+}
+
+.checkout-modal .modal-title {
+    font-weight: bold;
+    color: var(--black);
+}
+
+.checkout-modal .modal-body {
+    padding: 10px 22px 20px;
+}
+
+.checkout-icon {
+    width: 55px;
+    height: 55px;
+    background: var(--pink-soft);
+    color: var(--pink-dark);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin: auto;
+}
+
+.payment-info {
+    background: #fff9fc;
+    border: 1px solid #f4dce7;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+.payment-info > div {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    gap: 10px;
+}
+
+.payment-total {
+    color: var(--pink-dark);
+    font-size: 16px;
+}
+
+.modal-note {
+    font-size: 13px;
+    color: var(--gray);
+    line-height: 1.6;
+}
+
+.checkout-modal .modal-footer {
+    border-top: none;
+    padding: 0 22px 22px;
+}
+
+.checkout-modal .btn-close:focus {
+    box-shadow: 0 0 0 0.2rem #e8a3bd33;
+}
+
+#heroCarousel {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 0 24px 24px 0;
+}
+
+#heroCarousel .carousel-item {
+    transition: transform 0.6s ease-in-out;
+}
+
+#heroCarousel .hero-img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+#heroCarousel .carousel-indicators {
+    margin-bottom: 15px;
+}
+
+#heroCarousel .carousel-indicators button {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border: none;
+    margin: 0 5px;
+}
+
+#heroCarousel .carousel-control-prev,
+#heroCarousel .carousel-control-next {
+    width: 12%;
+}
+
+@media (max-width: 767px) {
+    #heroCarousel {
+        border-radius: 0 0 24px 24px;
+    }
+
+    #heroCarousel .hero-img {
+        height: 300px;
     }
 }
